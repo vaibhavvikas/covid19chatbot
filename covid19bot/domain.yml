@@ -1,0 +1,79 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - covid_intro
+  - smalltalk_human
+  - faq_distancing
+  - faq_symptoms
+  - faq_vaccine
+  - faq_vulnerable
+  - company_open
+  - company_wfh
+  - faq_testing
+  - faq_supplies
+  - faq_flu
+  - faq_howmany
+  - company_mitigiation
+  - company_deliveries
+  - faq_masks
+  - faq_timescale
+  - faq_spread
+  - faq_handwashing
+  - faq_curve
+  - faq_whatisit
+  - faq_origin
+  - faq_status
+  - corona_state_status
+
+responses:
+  utter_greet:
+  - text: "Hey! I'm Covid Bot. How are you feeling?"
+
+  utter_covid_intro:
+  - text: "Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus."
+    image: "https://i.pinimg.com/originals/3f/0a/7d/3f0a7d813b7e1402f9c66cab2f82dd38.gif"
+  
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - buttons:
+    - payload: /affirm
+      title: 👍
+    - payload: /deny
+      title: 👎
+    text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on! 🙂"
+
+  utter_goodbye:
+  - text: "Bye 👋"
+
+  utter_sad:
+    - text: "Thanks, I appreciate that, and I'm sorry 😔"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_default:
+    - text: "Sorry! I am unable to understand what you said. Try again..."
+          
+actions:
+- action_faq_distancing
+- action_faq_spread
+- action_faq_status
+- action_faq_symptoms
+- action_default_fallback
+- action_corona_state_status
+
+    
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
