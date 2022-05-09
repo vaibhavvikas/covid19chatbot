@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+# covid19chatbot
+![GitHub language count](https://img.shields.io/github/languages/count/vaibhavvikas/covid19chatbot) ![GitHub top language](https://img.shields.io/github/languages/top/vaibhavvikas/covid19chatbot) [![GitHub license](https://img.shields.io/github/license/vaibhavvikas/covid19chatbot)](https://github.com/vaibhavvikas/covid19chatbot/blob/main/LICENSE)
 
-You can use the [editor on GitHub](https://github.com/vaibhavvikas/covid19chatbot/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Chatbot with React UI
 
-### Markdown
+This project is my work for the subject of Artificial Intelligence in partial fulfilment of the requirements for the awards of the degree of Master of Computer Applications from National Institute of Technology, Tiruchirappalli, during the academic year 2019–2020 (5th Semester).
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The project report along with the all the tasks I did can be found inside project-report directory.
 
-```markdown
-Syntax highlighted code block
+There are two main parts of the project:
 
-# Header 1
-## Header 2
-### Header 3
+- RASA backend (Python)
+- Chatbot UI (Angular)
 
-- Bulleted
-- List
+The respective guides can be found inside their respective directories of the project.
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/vaibhavvikas/covid19chatbot/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Screenshot 
+![Covid Chatbot UI](https://user-images.githubusercontent.com/28614457/167354315-a8141260-bd0f-4700-bcbb-6f0546204dbc.png)
