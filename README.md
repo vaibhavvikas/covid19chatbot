@@ -11,3 +11,6 @@ There are two main parts of the project:
 - Chatbot UI (Angular)
 
 The respective guides can be found inside their respective directories of the project.
+
+![Covid Chatbot UI](https://user-images.githubusercontent.com/28614457/167354315-a8141260-bd0f-4700-bcbb-6f0546204dbc.png)
+
